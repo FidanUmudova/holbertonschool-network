@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-# Displays active listening TCP/UDP and UNIX sockets with program PIDs
 netstat -l -p
