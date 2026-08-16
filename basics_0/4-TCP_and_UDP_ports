@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Displays listening sockets along with PID and program names
-netstat -l -p
+# Aktiv dinlənilən (listening) portları, PID və proqram adlarını göstərir
+
+sudo netstat -lp
