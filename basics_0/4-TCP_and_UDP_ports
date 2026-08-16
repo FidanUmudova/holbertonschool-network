@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-netstat -lpn
+# Displays listening sockets along with PID and program names
+sudo netstat -l -p
+EOF
