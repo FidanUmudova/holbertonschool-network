@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Displays listening sockets along with PID and program names
-sudo netstat -l -p
-EOF
+# Displays active listening TCP/UDP and UNIX sockets with program PIDs
+netstat -lp
