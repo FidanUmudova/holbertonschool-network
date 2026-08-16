@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-# Aktiv dinlənilən (listening) portları, PID və proqram adlarını göstərir
-
-sudo netstat -lp
+netstat -lpn
